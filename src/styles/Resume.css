@@ -1,0 +1,7 @@
+.container-resume{
+    width: 45%;
+    height: 95%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+}

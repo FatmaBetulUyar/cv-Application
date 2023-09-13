@@ -1,0 +1,29 @@
+
+  
+  .form-header-personal {
+    width: 90%;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .form-personal > div {
+    width: 95%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .form-personal {
+      height: auto; 
+    }
+  
+    .form-personal > div {
+      flex-direction: column; 
+      padding: 5px;
+    }
+  }
+  

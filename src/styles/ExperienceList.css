@@ -1,0 +1,16 @@
+.experience-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    width: 100%;
+}
+
+.experience-list-item{
+    display: flex;
+    min-width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2%;
+}

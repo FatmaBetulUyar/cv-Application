@@ -1,0 +1,160 @@
+.container-form {
+    width: 40%;
+    border-radius: 5%;
+    height: auto;
+    padding: 2%;
+    margin: 2%;
+}
+
+.container-form > div{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-base {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border-radius: 5px;
+    color: #5D3891;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+[class^='form'] {
+    width: 95%;
+    padding: 2%;
+    margin: 2%;
+    background-color: white;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    color: #5D3891;
+
+    @media screen and (min-width: 768px) {
+        width: 25%;
+        /* 768 pikselden geniş ekranlarda orijinal genişlik */
+    }
+}
+
+[class^='label'] {
+    width: 40%;
+    text-align: left;
+    font-weight: bold
+}
+
+
+[class^='input'] {
+    width: 95%;
+    padding: 2%;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+input:invalid+span::after {
+    position: absolute;
+    padding-left: 5px;
+}
+
+input:valid+span::after {
+    position: absolute;
+    content: "✓";
+    color: green;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form-label {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .input {
+        width: 80%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    input:invalid+span::after,
+    input:valid+span::after {
+        font-size: 20px;
+        /* Daha büyük ikonlar */
+        padding-left: 10px;
+        /* Daha fazla boşluk */
+    }
+}
+
+/* Tarih Girişi */
+.form-date-start,
+.form-date-end {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    /* Genişlik yüzde olarak ayarlandı */
+    @media screen and (min-width: 768px) {
+        width: 50%;
+        /* 768 pikselden geniş ekranlarda iki sütuna bölünüyor */
+    }
+}
+
+.form-label-date-start,
+.form-label-date-end {
+    width: 100%;
+
+    /* Genişlik yüzde olarak ayarlandı */
+    @media screen and (min-width: 768px) {
+        width: 50%;
+        /* 768 pikselden geniş ekranlarda orijinal genişlik */
+    }
+}
+
+.form-input-date-start,
+.form-input-date-end {
+    width: 100%;
+
+    /* Genişlik yüzde olarak ayarlandı */
+    @media screen and (min-width: 768px) {
+        width: 86%;
+        /* 768 pikselden geniş ekranlarda orijinal genişlik */
+    }
+}
+
+.date {
+    flex-direction: row;
+}
+
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
+}
+
+.form-buttons>button {
+    margin: 1%;
+}
+
+.collapse{
+    color:#5D3891
+}
+
+.sidebar > button{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

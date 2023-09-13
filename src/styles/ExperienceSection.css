@@ -1,0 +1,48 @@
+.resume-experience {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.resume-experience-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8E2E2;
+    width: 95%;
+}
+
+.resume-experience-left {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    width: 15%;
+    justify-content: flex-start;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-right{
+    margin: 3%;
+    width: 70%;
+    justify-content: flex-start;
+}
+.resume-experience-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+.resume-experience-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.resume-right-company {
+    font-size: 13px;
+    font-weight: bold;
+}

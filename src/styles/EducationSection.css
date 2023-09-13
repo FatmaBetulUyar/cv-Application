@@ -1,0 +1,38 @@
+.resume-education {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.resume-education-header {
+    background-color: #E8E2E2;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-left {
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    width: 15%;
+}
+.resume-right{
+    margin: 3%;
+}
+.resume-education-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+
+.resume-right-school {
+    font-size: 13px;
+    font-weight: bold;
+}

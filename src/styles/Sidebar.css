@@ -1,0 +1,31 @@
+/* Base styles for the sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    height: auto;
+  }
+  
+  /* Style for the buttons inside the sidebar */
+  .sidebar > button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    margin: 5%;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust the styles for smaller screens */
+    .sidebar {
+      margin: 0; /* Remove margin to align at the top */
+    }
+  
+    .sidebar > button {
+      margin: 2%; /* Adjust margin for smaller spacing */
+    }
+  }
+  
