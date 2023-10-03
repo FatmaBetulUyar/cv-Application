@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import "../../../styles/Educationlist.css";
+import "../../../styles/EducationList.css"
 
 function EducationList({ educations, handleHidden }) {
   library.add(faEye);
