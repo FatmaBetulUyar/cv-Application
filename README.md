@@ -2,11 +2,15 @@
 
 This project is a CV application developed as part of the Odin Project's React course. With this application, you can create a CV containing your personal information and experiences.
 
-![cv-app](https://github.com/FatmaBetulUyar/cv-Application/assets/69481739/9cd0b58c-c9c0-47fb-9661-096c805af9a5)
+![cv-app](src/assets/cv-app.jpg)
 
 ## Getting Started
 
 You can get started with this project by cloning it to your local machine or by using the live demo version.
+
+   ## Live Demo
+   You can view a live demo of this project  [here](https://cv-application-90949.web.app/).
+   
 
 ### Prerequisites
 
@@ -41,6 +45,4 @@ To run this project on your local machine, you'll need the following software:
    ## Usage
    Once the application starts, you can use the appropriate forms to add your personal information, educational history, and work experience. You can add new items under each section by clicking the "Add" button. The information you add will be displayed on the page, and you can edit or delete it as needed.
 
-   ## Live Demo
-   You can view a live demo of this project  [here](https://cv-application-90949.web.app/).
-   
+
